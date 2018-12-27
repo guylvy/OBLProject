@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="509.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="158.0" layoutY="200.0" mnemonicParsing="false" onAction="#update" text="Update" />
+      <Button fx:id="view" layoutX="256.0" layoutY="200.0" mnemonicParsing="false" onAction="#view" prefHeight="25.0" prefWidth="55.0" text="View" />
+      <Label alignment="CENTER" layoutX="157.0" layoutY="14.0" prefHeight="96.0" prefWidth="213.0" text="Group 3 Prototype" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="studentid" layoutX="239.0" layoutY="99.0" />
+      <Label layoutX="140.0" layoutY="103.0" text="Student ID" />
+      <Label layoutX="126.0" layoutY="132.0" prefHeight="46.0" prefWidth="104.0" text="Select Membership" />
+      <Label layoutX="150.0" layoutY="170.0" text="Status" />
+      <ComboBox fx:id="box" layoutX="234.0" layoutY="143.0" prefWidth="150.0" />
+      <Label fx:id="namedisplay" alignment="TOP_CENTER" contentDisplay="TOP" layoutX="173.0" layoutY="247.0" text="Name" visible="false" />
+   </children>
+</AnchorPane>
